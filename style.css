@@ -340,120 +340,233 @@ li {
 
 /* main section third starts */
 
-.main-section-third{
-    padding-top:30px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+.main-section-third {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.main-section-third h2{
-    font-size:45px;
-    padding:20px 0px;
+.main-section-third h2 {
+    font-size: 45px;
+    padding: 20px 0px;
 }
 
 .main-section-third>h2>span {
-    color:#6851ff;
+    color: #6851ff;
 }
 
 /* job - relative box */
 
-.latest-jobs{
-    display:flex;
+.latest-jobs {
+    display: flex;
     justify-content: space-around;
-    gap:60px;
+    gap: 60px;
 }
 
-.jobs-box{
-    height:250px;
-    width:330px;
-    border:1px solid #e5e7eb;
-    border-radius:5px;
-    position:relative;
-    padding:20px;
+.jobs-box {
+    height: 250px;
+    width: 330px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 6px 12px #0000001a;
+    transition: all 0.3s;
 }
 
-.company-name{
-    padding-bottom:10px;
-    font-weight:600;
-
+.jobs-box:hover {
+    transform: translateY(-4px);
 }
 
-.job-name{
-    font-weight:900;
-    padding-bottom:10px;
+.company-name {
+    padding-bottom: 10px;
+    font-weight: 600;
 }
 
-.logo-hiringmine{
-    width:45px;
-    height:35px;
+.job-name {
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.logo-hiringmine {
+    width: 45px;
+    height: 35px;
     background-image: url("./Accets/hiringmine-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
-    position:absolute;
-    top:15px;
-    right:20px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
 }
 
-.salary{
-    color:#4d3bdb;
-    font-weight:600;
+.salary {
+    color: #4d3bdb;
+    font-weight: 600;
 }
-.people-view-job{
-    font-weight:600;
-    padding-top:50px;
-    display:flex;
+
+.people-view-job {
+    font-weight: 600;
+    padding-top: 50px;
+    display: flex;
     justify-content: flex-end;
 }
 
-.people-applied-to-job{
-    font-weight:600;
-    width:120px;
-    padding:8px 5px;
-    margin-left:175px;
-    border-radius:5px;
+.people-applied-to-job {
+    font-weight: 600;
+    width: 120px;
+    padding: 8px 5px;
+    margin-left: 175px;
+    border-radius: 5px;
     background-color: #f1f1f1;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.who-posted-when-posted-container{
-    margin-top:5px;
-    display:flex;
-    justify-content:space-between
+.who-posted-when-posted-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between
 }
 
 .who-posted-when-posted-container p {
-    font-size:15px; 
+    font-size: 15px;
 }
 
-.posted-by{
-    font-weight:700;
+.posted-by {
+    font-weight: 700;
 }
 
-.posted-by-name{
-    color:#4d3bdb;
+.posted-by-name {
+    color: #4d3bdb;
 }
 
 /* main section four starts */
 
-.main-section-four{
-    margin-top:80px;
-    display:flex;
-    align-items:center;
-    flex-direction:column;
+.main-section-four {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.main-section-four h2{
-     font-size:45px;
+.main-section-four h2 {
+    font-size: 45px;
 }
 
-.main-section-four h2>span{
+.main-section-four h2>span {
     color: #4d3bdb;
 }
 
-.main-section-four p{
-    font-size:19px;
-    font-weight:500;
+.main-section-four>p {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.tips-quick-step {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.quick-step-boxes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(180deg, #edebff, hsla(0, 0%, 100%, 0));
+    box-shadow: 0 4px 40px #bdb2ff3d;
+    border-radius: 6px;
+    padding: 20px;
+    width: 230px;
+    height: 180px;
+    transform: all 0.4s;
+}
+
+.quick-step-boxes:hover {
+    box-shadow: 0 4px 40px #beb2ff75;
+    transform: translateY(-5px)
+}
+
+.quick-step-boxes i {
+    font-size: 22px;
+    color: #4d3bdb;
+}
+
+.tip-box-heading {
+    color: #4d3bdb;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tip-guide {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* main section five */
+
+.main-section-five {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section-five h2 {
+    font-size: 45px;
+}
+
+.main-section-five h2>span {
+    color: #6851ff;
+}
+
+.main-section-five>p {
+    font-size: 18px;
+    text-align: center;
+    font-size: 500;
+    margin-bottom: 80px;
+}
+
+.hirinemine-banner {
+    width: 100%;
+    height: 300px;
+    background-image: url("./Accets/hirinemine-banner.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+/* main section six */
+
+.main-section-six {
+    margin-bottom:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontal-line {
+    background-color: #4d3bdb;
+    margin-top: 115px;
+    width: 3px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.main-section-six img {
+    width: 450px;
+}
+
+.main-section-six p {
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.main-section-six span {
+    color: #6851ff;
 }
