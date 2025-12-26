@@ -219,9 +219,14 @@ li {
     font-weight: 800;
 }
 
+.main-div>ul>li:hover {
+    background-color: #e3e0f5;
+}
+
 /* main Second Div starts */
 
 .main-second-div {
+    padding-bottom: 40px;
     width: 100%;
     background-color: #f0eeff;
     display: flex;
@@ -236,4 +241,117 @@ li {
     font-weight: 800;
     text-align: center;
     margin-bottom: 30px;
+}
+
+/* ai chatbox starts */
+
+.ai-chattingbox {
+    padding: 10px 15px;
+    position: relative;
+    height: 430px;
+    width: 1000px;
+    background-color: #f0eeff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+}
+
+.ai-chattingbox>p>i {
+    background-color: #522fd4;
+    color: white;
+    height: 20px;
+    padding-top: 2px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.ai-chattingbox>p {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.ai-hello-caht {
+    width: 65%;
+    margin-left: 10px;
+    background-color: #e9d5ff;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+.ai-chattingbox>ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 160px;
+}
+
+.ai-chattingbox>ul>li {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-color: rgba(0, 0, 0, 0.23);
+}
+
+.ai-chattingbox>ul>li:hover {
+    background-color: #e3e0f5;
+}
+
+.search {
+    /* border:5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    justify-items: flex-end;
+    position: relative;
+    top: 190px;
+}
+
+.search input {
+    width: 100%;
+    flex-grow: 2;
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: #f0eeff;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.search input:hover {
+    border: 1px solid black;
+}
+
+.ai-send-btn {
+    width: 40px;
+    background-color: #6851ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-image {
+    width: 100%;
+    height: 300px;
+    background-image: url("./Accets/main-section-png-image.png");
+    background-size: cover;
+}
+
+/* main section third starts */
+
+.main-section-third{
+    padding-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.main-section-third h2{
+    font-size:45px;
+    padding:20px 0px;
+}
+
+.main-section-third>h2>span {
+    color:#6851ff;
 }
