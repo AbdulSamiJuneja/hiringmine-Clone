@@ -570,3 +570,11 @@ li {
 .main-section-six span {
     color: #6851ff;
 }
+
+/* footer */
+
+footer{
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    width: 100%;
+    padding: 80px 0 50px;
+}
