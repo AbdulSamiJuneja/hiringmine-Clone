@@ -544,7 +544,7 @@ li {
 /* main section six */
 
 .main-section-six {
-    margin-bottom:50px;
+    margin-bottom: 50px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -573,8 +573,106 @@ li {
 
 /* footer */
 
-footer{
+footer {
     background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
     width: 100%;
-    padding: 80px 0 50px;
+    padding: 80px 0px 50px;
+}
+
+.footer-first-sec {
+    padding: 0px 80px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:2px solid #e5e7eb;
+}
+
+.about-hirine-mine {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.footer-logo img {
+    width: 130px;
+}
+
+.footer-first-sec p {
+    color: #e5e7eb;
+    font-weight: 550;
+}
+
+.footer-first-sec h2 {
+    color: #e5e7eb;
+    font-size:18px;
+    margin:20px 0px 10px;
+    color:white;
+}
+
+.social-media-accounts{
+    display:flex;
+    gap:30px;
+    font-size:28px;
+    color:#e5e7eb;
+}
+
+.contect-us {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.contect-us h2{
+    font-size:16px;
+    color:white;
+}
+
+.contect-us p{
+    font-size:14px;
+}
+/* footer section two starts  */
+
+.footer-second-sec{
+    display:flex;
+    padding:15px 0px;
+    align-items:center;
+    flex-direction: column;
+    height:30px;
+}
+
+.privacy-term{
+    display:flex;
+    gap:10px;
+    color:white;
+}
+
+.copy-right{
+    color:white;
+}
+
+.copy-right a {
+    color:white;
+    text-decoration:none;
+}
+
+.copy-right a:hover{
+    text-decoration: underline;
+}
+
+.message-box{
+    position:fixed;
+    bottom:15px;
+    right:30px;
+    height:60px;
+    width:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #6851ff;
+    border-radius:50%;
+    font-size:22px;
+    color:white;
 }
